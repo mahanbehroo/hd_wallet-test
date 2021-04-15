@@ -5,7 +5,7 @@ const HDWalletProvider = require('truffle-hdwallet-provider');
 
 
 module.exports = {
-netwoks: {
+networks: {
   ropsten: {
     provider: function() {
       return new HDWalletProvider(
